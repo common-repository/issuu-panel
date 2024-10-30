@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="test.php" backupGlobals="false" colors="true">
+	<testsuites></testsuites>
+	<logging>
+		<log type="json" target="tests/log.json"/>
+		<log type="testdox-html" target="tests/testdox.html"/>
+	</logging>
+	<php>
+		<const name="ISSUU_PANEL_UNIT_TEST_WEBSITE_URL" value=""/>
+		<const name="ISSUU_PANEL_UNIT_TEST_WEBSITE_PAGETEST" value="issuu-panel-tests"/>
+	</php>
+</phpunit>
